@@ -18,8 +18,7 @@ body:
         - If the behavior is documented but feels wrong or questionable,
           it might be better filed as a **design discussion** rather than a bug.
         - If something is unclear rather than broken, you may get a faster answer on
-          [StackOverflow](https://stackoverflow.com/) or in the
-          [Kotlin Slack](https://slack-chats.kotlinlang.org/).
+          [StackOverflow](https://stackoverflow.com/) or in the [Kotlin Slack](https://slack-chats.kotlinlang.org/).
         - Please make sure the issue is in **kotlinx.serialization itself**,
           not in Kotlin, a third-party format library, or your own code.
         - If you suspect this might already be fixed, trying a recent version can help —
