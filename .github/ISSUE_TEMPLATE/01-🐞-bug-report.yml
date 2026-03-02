@@ -60,12 +60,59 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: library-version
+    attributes:
+      label: kotlinx.serialization version
+      placeholder: "e.g. 1.7.3"
+    validations:
+      required: true
+
+  - type: input
+    id: kotlin-version
+    attributes:
+      label: Kotlin version
+      placeholder: "e.g. 2.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: platforms
+    attributes:
+      label: Kotlin platforms (optional)
+      placeholder: "e.g. JVM, JS, Native"
+    validations:
+      required: false
+
+  - type: input
+    id: gradle-version
+    attributes:
+      label: Gradle version (optional)
+      placeholder: "e.g. 8.10"
+    validations:
+      required: false
+
+  - type: input
+    id: jvm-version
+    attributes:
+      label: JVM version (optional)
+      placeholder: "e.g. OpenJDK 21"
+    validations:
+      required: false
+
+  - type: input
+    id: ide-version
+    attributes:
+      label: IDE version (optional)
+      placeholder: "e.g. IntelliJ IDEA 2024.3, Android Studio Ladybug"
+    validations:
+      required: false
+
   - type: textarea
     id: additional
     attributes:
-      label: Anything else? (optional)
+      label: Other context (optional)
       placeholder: |
-        What you expected, kotlinx.serialization version, Kotlin version, format (JSON/CBOR/ProtoBuf/etc),
-        serializer used, platform (JVM/JS/Native), logs, error messages — whatever you think matters.
+        Anything else that might be relevant: OS version, error messages, logs, format used (JSON/CBOR/ProtoBuf/etc), etc.
     validations:
       required: false

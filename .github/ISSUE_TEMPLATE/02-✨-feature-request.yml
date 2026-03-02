@@ -32,7 +32,7 @@ body:
   - type: textarea
     id: underlying_problem
     attributes:
-      label: What problem does this actually solve?
+      label: What is hard or impossible to do today?
       description: |
         Describe the underlying need, independent of any specific solution or API.
 
